@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use("/v1", require("./routes"));
+// app.use("/v1", require("./routes"));
 
 app.use((req, res, next) => {
     const err = new Error("Not Found");
@@ -17,5 +17,5 @@ app.use((req, res, next) => {
 });
 
 const server = app.listen(process.env.PORT || 3000, () => {
-    console.log("Listen on port " + server.address().port);
+    console.log("Listening on port " + server.address().port);
 });
