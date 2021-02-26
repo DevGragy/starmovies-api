@@ -3,6 +3,7 @@
 ### Temática del proyecto
 
 API para registro, consulta y reseña de películas.
+###  Definan los requerimientos del proyecto, así como su estructura, es decir, respondan las preguntas
 
 ### 1
 ![alt text](https://i.imgur.com/i3j9fMU.png)
