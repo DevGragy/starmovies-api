@@ -3,18 +3,18 @@ class Movie {
         id,
         title,
         year,
-        raiting,
+        rating,
         category,
-        languaje,
+        language,
         director,
         description
     ) {
         this.id = id;
         this.title = title;
         this.year = year;
-        this.raiting = raiting;
+        this.raiting = rating;
         this.category = category;
-        this.languaje = languaje;
+        this.languaje = language;
         this.director = director;
         this.description = description;
     }
