@@ -8,7 +8,7 @@ const {
 
 router.post("/", createMovie);
 router.get("/", readMovie);
-router.put("/:id", updateMovie);
+router.put("/:title", updateMovie);
 router.delete("/:id", deleteMovie);
 
 module.exports = router;
