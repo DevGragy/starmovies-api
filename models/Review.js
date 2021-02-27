@@ -1,27 +1,11 @@
 class Review {
-  constructor(id, idPelicula, user, review, rating) {
-    this.id = id;
-    this.idPelicula = idPelicula;
-    this.user = user;
-    this.review = review;
-    this.rating = rating;
-  }
-
-  insert() {
-    //Inserta un review
-  }
-
-  update() {
-    //Actualiza la review
-  }
-
-  delete() {
-    //Elimina un registro
-  }
-
-  show() {
-    //Consulta de registros
-  }
+    constructor(id, idMovie, user, review, rating) {
+        this.id = id;
+        this.idMovie = idMovie;
+        this.user = user;
+        this.review = review;
+        this.rating = rating;
+    }
 }
 
 module.exports = Review;
