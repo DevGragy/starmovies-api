@@ -78,7 +78,7 @@ INSERT INTO Admins VALUES ("JACM7","José Armando","Cano Meza","Administrator","
    
 INSERT INTO Movies VALUES ("001","004","The Hobbit","2012","25","Eng","Peter Jackson","Fantasy movie");
            
-INSERT INTO Movies VALUES ("002","003","¡Huye!,"2017","34","Eng","Jordan Peele","High suspense movie");
+INSERT INTO Movies VALUES ("002","003","Huye","2017","34","Eng","Jordan Peele","High suspense movie");
     
 INSERT INTO Movies VALUES ("003","002","Minions","2015","20","Eng","Kyle Balda","Child's movie");
     
