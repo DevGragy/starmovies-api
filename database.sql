@@ -56,13 +56,13 @@ CREATE TABLE Favorite(
 );
 
 
-INSERT INTO Users VALUES (“Chris74”,“Chris”,“Mendoza Maldonado”,“”,“chris_mm@gmail.com”,“Taquitou”);
+INSERT INTO Users VALUES ("Chris74","Chris","Mendoza Maldonado","","chris_mm@gmail.com","Taquitou");
     
-INSERT INTO Users VALUES (“Chofis99”,“Ana Sofia”,“Ortega Sanchez”,“”,“lachifis@gmail.com”,“cerezitaSanchez99”);
+INSERT INTO Users VALUES ("Chofis99","Ana Sofia","Ortega Sanchez","","lachifis@gmail.com","cerezitaSanchez99");
     
-INSERT INTO Users VALUES (“CrackMLC”,“Mauro”,“Lainez Cano”,“”,“lainez28@gmail.com”,“mauro3312LC”);
+INSERT INTO Users VALUES ("CrackMLC","Mauro","Lainez Cano","","lainez28@gmail.com","mauro3312LC");
     
-INSERT INTO Users VALUES (“Det Holmes”,“Gwen”,“Palmer Holmes”,“”,“Holmes007@gmail.com”,“enolaHolmes33”);
+INSERT INTO Users VALUES ("Det Holmes","Gwen","Palmer Holmes","","Holmes007@gmail.com","enolaHolmes33");
 
   
     
