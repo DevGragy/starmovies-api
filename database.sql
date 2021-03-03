@@ -106,10 +106,10 @@ INSERT INTO Review VALUES ("777","004","Det Holmes","03/04/20","101");
             
             
             
-INSERT INTO Favorite VALUE ("020","001","CrackMLC");
+INSERT INTO Favorite VALUES ("020","001","CrackMLC");
     
-INSERT INTO Favorite VALUE ("021","002","Chris74");
+INSERT INTO Favorite VALUES ("021","002","Chris74");
             
-INSERT INTO Favorite VALUE ("022","003","Det Holmes");
+INSERT INTO Favorite VALUES ("022","003","Det Holmes");
             
-INSERT INTO Favorite VALUE ("023","004","Chofis99");
+INSERT INTO Favorite VALUES ("023","004","Chofis99");
