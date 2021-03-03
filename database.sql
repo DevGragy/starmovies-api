@@ -76,13 +76,13 @@ INSERT INTO Admins VALUES ("JACM7","José Armando","Cano Meza","Administrator","
     
     
    
-INSERT INTO Movies VALUES (001,004,"The Hobbit",2012,25,"Eng","Peter Jackson","Fantasy movie");
+INSERT INTO Movies VALUES (001,004,"The Hobbit",2012,"25","Eng","Peter Jackson","Fantasy movie");
            
-INSERT INTO Movies VALUES (002,003,Huye,2017,34,"Eng","Jordan Peele","High suspense movie");
+INSERT INTO Movies VALUES (002,003,Huye,2017,"34","Eng","Jordan Peele","High suspense movie");
     
-INSERT INTO Movies VALUES (003,002,"Minions",2015,20,"Eng","Kyle Balda","Child's movie");
+INSERT INTO Movies VALUES (003,002,"Minions",2015,"20","Eng","Kyle Balda","Child's movie");
     
-INSERT INTO Movies VALUES (004,001,"The Mask",1994,101,"Eng","Chuck Russell","Comedy film");
+INSERT INTO Movies VALUES (004,001,"The Mask",1994,"101","Eng","Chuck Russell","Comedy film");
     
     
     
@@ -96,13 +96,13 @@ INSERT INTO Category VALUES (004,"Fantasy","Movies from a new world");
     
     
  
-INSERT INTO Review VALUES (333,001,"Chris74","29/08/20",25);
+INSERT INTO Review VALUES (333,001,"Chris74","29/08/20","25");
             
-INSERT INTO Review VALUES (444,002,"Chofis99","28/01/21",34);
+INSERT INTO Review VALUES (444,002,"Chofis99","28/01/21","34");
             
-INSERT INTO Review VALUES (555,003,"CrackMLC",20);
+INSERT INTO Review VALUES (555,003,"CrackMLC","20");
             
-INSERT INTO Review VALUES (777,004,"Det Holmes","03/04/20",101);
+INSERT INTO Review VALUES (777,004,"Det Holmes","03/04/20","101");
             
             
             
