@@ -1,7 +1,7 @@
 class Favorite {
-    constructor(id, idPelicula, user) {
+    constructor(id, idMovie, user) {
         this.id = id;
-        this.idPelicula = idPelicula;
+        this.idMovie = idMovie;
         this.user = user;
     }
 }
