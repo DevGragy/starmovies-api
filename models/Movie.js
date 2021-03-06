@@ -14,7 +14,7 @@ class Movie {
         this.year = year;
         this.raiting = rating;
         this.category = category;
-        this.languaje = language;
+        this.language = language;
         this.director = director;
         this.description = description;
     }
