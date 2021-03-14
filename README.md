@@ -23,54 +23,54 @@ Usuarios con los que cuenta el sistema:
 
 Los modelos poseen varios atributos para identificar los diferentes valores que se pueden consultar mediante las peticiones. Estos modelos están hechos en SQL, por lo tanto poseen llaves primarias (PK) y llaves foráneas (FK) para identificar valores específicos.
 
-### User
+### Users
 
+-   userName (PK)
 -   firstName
 -   LastName
--   userName (PK)
 -   role
 -   email
 -   password
 
-### Admin
+### Admins
 
+-   adminName (PK)
 -   firstName
 -   LastName
--   userName (PK)
 -   role
 -   email
--   password
+-   adminPassword
 
-### Movie
+### Movies
 
--   id (PK)
+-   idMovie (PK)
+-   idCategory (FK)
 -   title
--   year
+-   years
 -   rating
--   category (FK)
--   language
+-   languages
 -   director
--   description
+-   descriptions
 
 ### Category
 
--   id (PK)
+-   idCategory (PK)
 -   category
--   description
+-   descriptions
 
 ### Review
 
--   id (PK)
--   idPelicula (FK)
--   user (FK)
+-   idReview (PK)
+-   idMovie (FK)
+-   userName (FK)
 -   review
 -   rating
 
 ### Favorite
 
--   id (PK)
--   idPelicula (FK)
--   user (FK)
+-   idFavorite (PK)
+-   idMovie (FK)
+-   userName (FK)
 
 ## Controladores
 
