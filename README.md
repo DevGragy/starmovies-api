@@ -19,6 +19,33 @@ Usuarios con los que cuenta el sistema:
 -   Administrador
 -   Usuario
 
+## Historias de Usuario
+
+### Usuario
+
+-   Como usuario de starmovies quiero poder ver y actualizar mis datos para administrar mi informacion dentro de la app.
+-   Como usuario de starmovies quiero poder ver la informacion de todas las peliculas para conocerlas a fondo.
+-   Como usuario de starmovies quiero poder ver la informacion de todas las categorias para elegir una categoria de mi agrado.
+-   Como usuario de starmovies quiero poder crear reviews para dar mi opinion de una pelicula.
+-   Como usuario de starmovies quiero poder ver mis reviews para analizar lo que dije acerca de las peliculas.
+-   Como usuario de starmovies quiero poder actualizar mis reviews para cambiar de opinion.
+-   Como usuario de starmovies quiero poder borrar mis reviews para quitar una review mia.
+-   Como usuario de starmovies quiero poder agregar un favorito para almacenar mis peliculas favoritas.
+-   Como usuario de starmovies quiero poder ver mis favoritos para conocer cuales almacene.
+-   Como usuario de starmovies quiero poder actualizar mis favoritos por si me equivoque de informacion.
+-   Como usuario de starmovies quiero poder borrar mis favoritos para quitar los que ya no quiero ver.
+
+### Administrador
+
+-   Como adminstrador de starmovies quiero crear nuevos usuarios para administrar el acceso a la app.
+-   Como adminstrador de starmovies quiero ver la informacion de mis usuarios para administrarlos.
+-   Como adminstrador de starmovies quiero actualizar la informacion de los usuarios para cambiar valores que ellos no llenen correctamente.
+-   Como adminstrador de starmovies quiero eliminar usuarios para tener registros arraigados.
+-   Como adminstrador de starmovies quiero crear, actualizar y eliminar peliculas para controlar la informacion de las peliculas almacenadas.
+-   Como adminstrador de starmovies quiero crear, actualizar y eliminar categorias para que mis usuarios tengan mayor oportunidad de escoger categorias.
+-   Como adminstrador de starmovies quiero actualizar o eliminar reviews para controlar la informacion que no sea prudente acerca de las peliculas.
+-   Como adminstrador de starmovies quiero actualizar o eliminar favoritos para controlar la informacion de las peliculas favoritas.
+
 ## Modelos
 
 Los modelos poseen varios atributos para identificar los diferentes valores que se pueden consultar mediante las peticiones. Estos modelos están hechos en SQL, por lo tanto poseen llaves primarias (PK) y llaves foráneas (FK) para identificar valores específicos.
@@ -173,6 +200,7 @@ Cualquier puede leer un favorito por id. `GET`
 #### User
 
 El usuario puede crear un favorito. `POST`
+
 El usuario puede leer sus propios favoritos (por limite [?limit=numero], por varios atributos (?attribute=atributo1, atributo2, etc.) `GET`
 
 El usuario puede actualizar sus propios favoritos. `PUT`
