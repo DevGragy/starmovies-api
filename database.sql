@@ -8,7 +8,7 @@ CREATE TABLE Users(
     lastName VARCHAR(30) NOT NULL,
     roles VARCHAR(20),
     email VARCHAR(40) NOT NULL,
-    passwords VARCHAR(30) NOT NULL
+    userPassword VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE Admins(
@@ -17,7 +17,7 @@ CREATE TABLE Admins(
     lastName VARCHAR(30) NOT NULL,
     roles VARCHAR(20),
     email VARCHAR(40) NOT NULL,
-    passwords VARCHAR(30) NOT NULL
+    adminPassword VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE Category(
@@ -56,6 +56,7 @@ CREATE TABLE Favorite(
     FOREIGN KEY (userName) REFERENCES Users(userName)
 );
 
+INSERT INTO Users VALUES("No userName", "No firstName", "No lastName", "User", "No email", "No userPassword");
 
 INSERT INTO Users VALUES ("Chris74","Chris","Mendoza Maldonado","User","chris_mm@gmail.com","Taquitou");
     
@@ -81,6 +82,7 @@ INSERT INTO Admins VALUES ("ChristianCan", "Christian Alejandro","Can Pérez","A
 INSERT INTO Admins VALUES ("JACM7","José Armando","Cano Meza","Administrator","JACM7@gmail.com","JACM7T25");
 
 
+INSERT INTO Category VALUES (000,"Uncategorized","Movies without a category");
 
 INSERT INTO Category VALUES (001,"Comedy","Movies to laugh");
     

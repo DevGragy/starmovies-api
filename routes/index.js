@@ -1,10 +1,10 @@
 const router = require("express").Router();
 
 router.get("/", (req, res) => {
-    res.send("Welcome to StarMovies API");
+  res.send("Welcome to StarMovies API");
 });
 
-router.use("/admins", require("./admins"));
+//router.use("/admins", require("./admins"));
 router.use("/categories", require("./categories"));
 router.use("/favorites", require("./favorites"));
 router.use("/movies", require("./movies"));

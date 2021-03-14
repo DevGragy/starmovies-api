@@ -1,14 +1,16 @@
 const router = require("express").Router();
 const {
-    createReview,
-    readReviews,
-    updateReview,
-    deleteReview,
+  createReview,
+  readReviews,
+  updateReview,
+  deleteReview,
+  readReviewById,
 } = require("../controllers/reviews");
 
 router.post("/", createReview);
 router.get("/", readReviews);
-router.put("/:review", updateReview);
-router.delete("/:id", deleteReview);
+router.put("/:idReview", updateReview);
+router.delete("/:idReview", deleteReview);
+router.get("/:idReview", readReviewById);
 
 module.exports = router;
