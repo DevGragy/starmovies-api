@@ -4,6 +4,10 @@ Star Movies es una API que maneja datos de películas.
 
 Realiza consultas/peticiones en nuestra API haciendo click aqui [StarMovies API](https://starmovies-api.herokuapp.com/v1).
 
+## Swagger
+
+Checa nuestra documentacion en [Swagger](https://inspector.swagger.io/builder) para conocer como se realizan peticiones a nuestra API
+
 ## Especificaciones
 
 La API es capaz de:
