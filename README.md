@@ -6,7 +6,7 @@ Realiza consultas/peticiones en nuestra API haciendo click aqui [StarMovies API]
 
 ## Swagger
 
-Checa nuestra documentacion en [Swagger](https://inspector.swagger.io/builder) para conocer como se realizan peticiones a nuestra API
+Checa nuestra documentacion en [Swagger](https://app.swaggerhub.com/apis-docs/ChristianCan/starmoviesapi/0.1#/) para conocer como se realizan peticiones a nuestra API.
 
 ## Especificaciones
 
