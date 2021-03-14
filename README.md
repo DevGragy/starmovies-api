@@ -57,7 +57,7 @@ Los modelos poseen varios atributos para identificar los diferentes valores que 
 -   LastName
 -   role
 -   email
--   password
+-   userPassword
 
 ### Admins
 
