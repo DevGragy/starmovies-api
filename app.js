@@ -4,9 +4,7 @@ const cors = require("cors");
 
 const Sequelize = require("sequelize");
 
-const sequelize = new Sequelize(
-  "mysql://u23lfgk6uveu9wph:iQJEjwBpaaiktALryZu0@b7yyugoxnij8erbxhks7-mysql.services.clever-cloud.com:3306/b7yyugoxnij8erbxhks7"
-);
+const sequelize = new Sequelize(process.env.MYSQL_URI);
 
 sequelize
   .authenticate()
